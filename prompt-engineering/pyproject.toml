@@ -9,6 +9,11 @@ packages = [{include = "prompt_engineering", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 openai = "^0.28.0"
+redlines = "^0.4.2"
+python-dotenv = "^1.0.0"
+markdown = "^3.4.4"
+panel = "^1.2.3"
+jupyter-bokeh = "^3.0.7"
 
 
 [build-system]
